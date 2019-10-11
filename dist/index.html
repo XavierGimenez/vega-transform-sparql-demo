@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Vega test</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif, Arial, Helvetica;
+        margin: 25px;
+        font-size: 13px;
+    }
+</style>
+<body>
+        <h2>SPARQL Vega demo</h2>
+        Demo of using a SPARQL Vega tranform to a)fetch data and parse results coming from SPARQL endpoints.
+        <br><br>
+        <h3>Querying data from <a href='http://university-analytics.com/sparql-endpoint/' target='_blank'>UNICS SPARQL endpoint</a></h3>
+        <p>Number of post-graduates enrollments from Italian universities</p>
+        <div id="vis-endpoint-unics"></div>
+        <br><br>
+        <h3>Querying data from Wikidata SPARQL endpoint</h3>
+        <p>Parallel coordinates displaying the dimensions of elements
+        (<a href='https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples#Dimensions_of_elements' target='_blank'>Wikidata query</a>)</p>
+        <div id="vis-endpoint-wikidata"></div>
+    <script src="main.js"></script>
+</body>
+</html>
