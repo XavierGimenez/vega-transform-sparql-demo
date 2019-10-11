@@ -6,3 +6,6 @@ The demo uses a custom Vega transform that accepts SPARQL queries and fetches da
 
 ## Deployment
 Clone the repo and open dist/index.html on your browser.
+
+![Demo img1](https://raw.githubusercontent.com/XavierGimenez/vega-transform-sparql-demo/master/img/unics.png)
+![Demo img2](https://raw.githubusercontent.com/XavierGimenez/vega-transform-sparql-demo/master/img/wikidata.png)
