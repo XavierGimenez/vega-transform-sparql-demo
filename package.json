@@ -6,7 +6,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "vega": "^5.7.1",
+    "vega": "^5.22.1",
     "vega-transform-sparql": "0.0.1"
   },
   "devDependencies": {
